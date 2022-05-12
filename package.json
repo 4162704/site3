@@ -1,0 +1,22 @@
+{
+  "name": "site-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.16",
+    "stripe": "^9.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
